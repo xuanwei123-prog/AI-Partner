@@ -23,7 +23,22 @@ A highly customizable, interactive AI companion web application powered by **Str
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+1. **Clone the repository:**
+```bash
+   git clone [https://github.com/your-username/AI-Partner.git](https://github.com/your-username/AI-Partner.git)
+   cd AI-Partner
+2. Install the required dependencies:
+   pip install streamlit anthropic
+3. Set up your Anthropic API Key as an environment variable:
+   For Windows (Command Prompt):
+   set ANTHROPIC_API_KEY=your_api_key_here
+     ```
+* **For macOS / Linux:**
+```bash
+     export ANTHROPIC_API_KEY="your_api_key_here"
+     ```
+## 🏃‍♂️ Running the Application
+
+Launch the Streamlit server using the following command:
+```bash
+streamlit run app.py
